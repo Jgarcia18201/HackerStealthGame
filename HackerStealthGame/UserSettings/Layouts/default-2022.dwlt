@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 14181
+  controlID: 986
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 14086
+  controlID: 957
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 14043
+  controlID: 958
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 14092
+  controlID: 987
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -846,9 +846,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 81.71447, y: -87.274704, z: -23.393288}
+    m_Target: {x: -36.374493, y: -78.849754, z: 121.11122}
     speed: 2
-    m_Value: {x: 81.71447, y: -87.274704, z: -23.393288}
+    m_Value: {x: -36.374493, y: -78.849754, z: 121.11122}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -894,13 +894,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.22998019, y: 0.75672233, z: -0.34366834, w: 0.50636387}
+    m_Target: {x: 0.33483747, y: -0.10843027, z: 0.038842097, w: 0.93523055}
     speed: 2
-    m_Value: {x: 0.23253125, y: 0.75415546, z: -0.34523544, w: 0.50792843}
+    m_Value: {x: 0.33477244, y: -0.10983089, z: 0.039343562, w: 0.93504906}
   m_Size:
-    m_Target: 71.233765
+    m_Target: 90.24791
     speed: 2
-    m_Value: 71.233765
+    m_Value: 90.24791
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1119,7 +1119,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5aeefeff7ceefeff8eeefeffa0f7feff76d4ffff2cfbffff
+      m_ExpandedIDs: 20fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1188,7 +1188,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sci-Fi Styled Modular Pack/Prefabs/Corridors
+    - Assets/Scripts/Camera
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1204,7 +1204,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: dc590000
     m_LastClickedID: 23004
-    m_ExpandedIDs: ffffffff000000001e60000020600000226000002460000026600000286000002a6000002c6000002e600000306000003260000034600000a6600000
+    m_ExpandedIDs: ffffffff00000000726100007461000076610000786100007a6100007c6100007e61000080610000826100008461000086610000386200009a620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1232,7 +1232,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000001e60000020600000226000002460000026600000286000002a6000002c6000002e600000306000003260000034600000a6600000
+    m_ExpandedIDs: 9ed6ffffffffffff00000000726100007461000076610000786100007a6100007c6100007e61000080610000826100008461000086610000386200009a620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
