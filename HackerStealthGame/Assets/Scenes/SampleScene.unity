@@ -995,6 +995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative_wall_4_computer
       objectReference: {fileID: 0}
+    - target: {fileID: 169896, guid: 897c9b0e5e04118499e0903c7754628f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 411016, guid: 897c9b0e5e04118499e0903c7754628f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30.318804
@@ -1052,6 +1056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative_wall_5 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 445366, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32.55625
@@ -1108,6 +1116,10 @@ PrefabInstance:
     - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_Name
       value: decorative_wall_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 445366, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1281,6 +1293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative_wall_5 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 445366, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_LocalPosition.x
       value: -40.555458
@@ -1447,6 +1463,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative_wall_5 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 445366, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30.404196
@@ -1567,6 +1587,10 @@ PrefabInstance:
     - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_Name
       value: decorative_wall_5 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 445366, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1730,13 +1754,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.44178072, y: 0.39431068, z: -0.22514114, w: 0.7737315}
-  m_LocalPosition: {x: 1, y: 9.040003, z: 5}
+  m_LocalRotation: {x: 0.49584115, y: -0.00004950189, z: 0.000028207083, w: 0.8684133}
+  m_LocalPosition: {x: 6.17, y: 9.040003, z: 1.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 59.45, y: 54.009, z: 0}
+  m_LocalEulerAnglesHint: {x: 59.45, y: -0.007, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1762,6 +1786,10 @@ PrefabInstance:
     - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_Name
       value: decorative_wall_5 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 445366, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1853,6 +1881,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   rotationSpeed: 10
+  rayLength: 1
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  wallHugOffset: 0.8
 --- !u!114 &1023052273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1944,15 +1977,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1039183742}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.05625, y: -57.150986, z: 79.58711}
+  m_LocalRotation: {x: -0, y: -0.7066829, z: -0, w: 0.7075304}
+  m_LocalPosition: {x: -67.231476, y: -57.150986, z: 43.885056}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1883450012}
   - {fileID: 1419146177}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -89.931, z: 0}
 --- !u!1001 &1073323819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2021,6 +2054,10 @@ PrefabInstance:
     - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_Name
       value: decorative_wall_5 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 445366, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2172,7 +2209,7 @@ Transform:
   m_GameObject: {fileID: 1153360123}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.5, y: 4.53, z: 9.49}
+  m_LocalPosition: {x: -5.22, y: 4.53, z: 9.28}
   m_LocalScale: {x: 1, y: 1, z: 4.9792}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2544,6 +2581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative_wall_5 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 445366, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_LocalPosition.x
       value: -42.708305
@@ -2606,6 +2647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: decorative_wall_5 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 445366, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_LocalPosition.x
       value: -42.708305
@@ -2667,13 +2712,17 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 74bc13bad2906a14e87a6bc3aaf1c6da, type: 2}
+    - target: {fileID: 1104346649488452835, guid: bb96394e9629f20408ea23d3760ba123, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5978688025392802851, guid: bb96394e9629f20408ea23d3760ba123, type: 3}
       propertyPath: m_Name
       value: PlayerCharacter
       objectReference: {fileID: 0}
     - target: {fileID: 6463582156032259737, guid: bb96394e9629f20408ea23d3760ba123, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.9858894
+      value: 5.84
       objectReference: {fileID: 0}
     - target: {fileID: 6463582156032259737, guid: bb96394e9629f20408ea23d3760ba123, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2681,11 +2730,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6463582156032259737, guid: bb96394e9629f20408ea23d3760ba123, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.542237
+      value: 4.69
       objectReference: {fileID: 0}
     - target: {fileID: 6463582156032259737, guid: bb96394e9629f20408ea23d3760ba123, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.707065
+      value: 0.9997954
       objectReference: {fileID: 0}
     - target: {fileID: 6463582156032259737, guid: bb96394e9629f20408ea23d3760ba123, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2693,7 +2742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6463582156032259737, guid: bb96394e9629f20408ea23d3760ba123, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.70714855
+      value: -0.020229787
       objectReference: {fileID: 0}
     - target: {fileID: 6463582156032259737, guid: bb96394e9629f20408ea23d3760ba123, type: 3}
       propertyPath: m_LocalRotation.z
@@ -2705,7 +2754,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6463582156032259737, guid: bb96394e9629f20408ea23d3760ba123, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90.007
+      value: -2.318
       objectReference: {fileID: 0}
     - target: {fileID: 6463582156032259737, guid: bb96394e9629f20408ea23d3760ba123, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -3172,6 +3221,10 @@ PrefabInstance:
     - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_Name
       value: decorative_wall_5 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 150100, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 445366, guid: 339299a7e2fdedf47b7788ab1a25c9df, type: 3}
       propertyPath: m_LocalPosition.x
